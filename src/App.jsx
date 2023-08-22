@@ -1,12 +1,15 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 
 function App() {
-  const url = "https://course-api.netlify.app/api/react-tabs-project";
+  const url = "https://course-api.com/react-tabs-project";
 
-  return <></>;
+  return (
+    <>
+      <h2>Tabs Project Setup</h2>
+    </>
+  );
 }
 
 export default App;
